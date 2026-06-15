@@ -1,18 +1,69 @@
-# dino_app
+# Gigantes App
 
-A new Flutter project.
+Aplicación móvil desarrollada en Flutter para la exposición **"Gigantes: Grandes dinosaurios de la Sierra de la Demanda de Burgos"**.
 
-## Getting Started
+La aplicación permite a los visitantes acceder a información multimedia mediante el escaneo de códigos QR, ofreciendo una experiencia accesible e interactiva dentro de la exposición.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Características
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Escaneo de códigos QR.
+* Funcionamiento completamente offline.
+* Consulta de información almacenada en SQLite.
+* Soporte multilenguaje.
+* Visualización de imágenes.
+* Reproducción de audio.
+* Interfaz sencilla y accesible.
+* Arquitectura modular y reutilizable.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+## Tecnologías utilizadas
+
+* Flutter
+* Dart
+* SQLite
+* mobile_scanner
+* audioplayers
+* photo_view
+
+---
+
+## Adaptación a nuevas exposiciones
+
+La aplicación ha sido diseñada para poder reutilizarse en otras exposiciones.
+
+Para adaptarla será necesario:
+
+1. Sustituir los recursos multimedia (imágenes y audios).
+2. Actualizar la base de datos SQLite con los nuevos contenidos.
+3. Generar nuevos códigos QR.
+4. Añadir nuevos idiomas si fuese necesario.
+
+No es necesario modificar la lógica principal de la aplicación.
+
+---
+
+## Accesibilidad
+
+La aplicación incorpora medidas básicas de accesibilidad:
+
+* Tipografía de alta legibilidad.
+* Botones de gran tamaño.
+* Información disponible en texto y audio.
+* Navegación sencilla e intuitiva.
+
+---
+
+## Autores
+
+Proyecto desarrollado por estudiantes de 1º DAM para la exposición:
+
+* Verónica Bernabé Hortigüela
+* Rodrigo Cueto del Torno
+* Ángela Cereceda Pampliega
+
+**Gigantes: Grandes dinosaurios de la Sierra de la Demanda de Burgos**
+
+Universidad de Burgos – La Estación de la Ciencia y la Tecnología.
