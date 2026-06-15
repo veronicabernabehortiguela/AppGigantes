@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "428499376844",
+    "project_id": "dinos-81943",
+    "storage_bucket": "dinos-81943.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428499376844:android:7de32d1a9432cec25dc069",
+        "android_client_info": {
+          "package_name": "com.example.dino_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4GT_nc5bo88mncEUnTUHT8uDVW_2uHa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
